@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>MoMu</title>
+            <link rel="stylesheet" href="Source/cssstyles/style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barrio&family=Mr+Dafoe&family=Water+Brush&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin='anonymous'></script>
+            <link rel="stylesheet" href="css/all.css">
+            <script>
+                function openForm() {
+                  document.getElementById("myForm").style.display = "block";
+                }
+                
+                function closeForm() {
+                  document.getElementById("myForm").style.display = "none";
+                } 
+                function openForm2() {
+                  document.getElementById("myForm2").style.display = "block";
+                }
+                
+                function closeForm2() {
+                  document.getElementById("myForm2").style.display = "none";
+                } 
+             </script>
+    </head>
+    <body>
+    	<video autoplay muted loop id="myVideo">
+  	      <source src="Source/index.mp4" type="video/mp4">
+	    </video>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="Source/music3.jpeg"  alt="music1">
+            </div>
+            <ul id="ul1">
+                <li class="item"><a href="#"><i>HOME</i></a></li>
+                <li class="item"><a href="#">CONTACT US</a></li>
+                <li class="item"><a href="#">ABOUT US</a></li>
+                <div id="top-right">
+                <li><button class="open-button" onclick="openForm()">REGISTER</button>
+                  <div class="form-popup" id="myForm">
+                   <form action="index.html" class="form-container">
+                 
+                     <label class="lb1" for="email"><b>Username</b></label>
+                     <input type="text" placeholder="Enter Username" name="email" required>
+                 
+                     <label class="lb1" for="psw"><b>CreatePassword</b></label>
+                     <input type="password" placeholder="Enter Password" name="psw" required>
+                 
+                     <button type="submit" class="btn">Register</button>
+                     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                   </form></li>
+                <li>
+                </div>
+                <div class="top-right1">
+                <button class="open-button" onclick="openForm2()">Login</button>
+                <div class="form-popup" id="myForm2">
+                  <form action="index.html" class="form-container">
+
+                    <label class="lb1" for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label class="lb1" for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" class="btn">Login</button>
+                    <button type="button" class="btn cancel" onclick="closeForm2()">Close</button>
+                  </form>
+                    <div align="center">
+                                </li>
+                                
+                                </div>
+                                
+                            </ul>
+        </nav>
+        <h1>"Go with mood"</h1>
+       <center><div class="mood"></div></center>
+     <div class="wrapper">
+   		 <div class="icon facebook">
+      			<div class="tooltip">Melody</div>
+     				 <span><a href="Source/MusicFolders/melody/melody.html"><img src="Source/love.jpeg"></a></span>
+   		 </div>
+  
+   		 <div class="icon twitter">
+      			<div class="tooltip">Folk</div>
+     				 <span><a href="Source/MusicFolders/folk/folk.html"><img src="Source/dj.png"></a></span>
+   		</div>
+		<div class="icon github">
+      			<div class="tooltip">Retro</div>
+      				 <span><a href="Source/MusicFolders/retro/retro.html"><img src="Source/rc.png"></a></span>
+      				
+   		 </div>
+		<div class="icon youtube">
+      			<div class="tooltip">Devotional</div>
+     				 <span><a href="Source/MusicFolders/devotional/devotional.html"><img src="Source/god.png"></a></span>
+   		 </div>
+   		 
+	</div>
+	<br><br><br>
+	 <div class="wrapper">
+   		 <div class="icon facebook">
+      			<div class="tooltip">BROKEN</div>
+     				 <span><a href="Source/MusicFolders/broken/broken.html"><img src="Source/broken.jpeg"></a></span>
+   		 </div>
+  
+   		 <div class="icon twitter">
+      			<div class="tooltip">GYM</div>
+     				 <span><a href="Source/MusicFolders/Gym/gym.html"><img src="Source/gym.jpg"></a></span>
+   		</div>
+		<div class="icon github">
+      			<div class="tooltip">SLEEP</div>
+      				 <span><a href="Source/MusicFolders/sleep/sleep.html"><img src="Source/sleep.png"></a></span>
+      				
+   		 </div>
+		<div class="icon youtube">
+      			<div class="tooltip">party</div>
+     				 <span><a href="Source/MusicFolders/party/party.html"><img src="Source/party.png"></a></span>
+   		 </div>
+   		 
+	</div>
+        
+
+        
+    </body>
+</html>
